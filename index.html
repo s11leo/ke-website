@@ -5,12 +5,18 @@
         <meta http-equiv="X-UA-Compatible" content="IE=edge" />
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
         <link
+            rel="shortcut icon"
+            type="image/x-icon"
+            href="images/favicon.ico"
+        />
+        <link
             rel="stylesheet"
             href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css"
             integrity="sha512-Fo3rlrZj/k7ujTnHg4CGR2D7kSs0v4LLanw2qksYuRlEzO+tcaEPQogQ0KaoGN26/zrn20ImR1DfuLWnOo7aBA=="
             crossorigin="anonymous"
             referrerpolicy="no-referrer"
         />
+        <link rel="stylesheet" href="css/lightbox.min.css" />
         <link rel="stylesheet" href="css/utilities.css" />
         <link rel="stylesheet" href="css/style.css" />
         <title>Welcome To EdgeLedger</title>
@@ -18,7 +24,7 @@
     <body id="home">
         <header class="hero">
             <!-- Navbar -->
-            <div id="navbar" class="navbar">
+            <div id="navbar" class="navbar top">
                 <h1 class="logo">
                     <span class="text-primary">
                         <i class="fas fa-book-open"></i>
@@ -133,34 +139,114 @@
                 <div class="row">
                     <div class="column">
                         <div class="cell">
-                            <img src="images/cases/cases1.jpg" alt="cases1" />
+                            <a
+                                href="images/cases/cases1.jpg"
+                                data-lightbox="cases"
+                                data-title="Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                                Sequi, nulla!"
+                            >
+                                <img
+                                    src="images/cases/cases1.jpg"
+                                    alt="cases1"
+                                />
+                            </a>
                         </div>
                         <div class="cell">
-                            <img src="images/cases/cases2.jpg" alt="cases2" />
+                            <a
+                                href="images/cases/cases2.jpg"
+                                data-lightbox="cases"
+                                data-title="Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                                Sequi, nulla!"
+                            >
+                                <img
+                                    src="images/cases/cases2.jpg"
+                                    alt="cases2"
+                                />
+                            </a>
                         </div>
                     </div>
                     <div class="column">
                         <div class="cell">
-                            <img src="images/cases/cases3.jpg" alt="cases3" />
+                            <a
+                                href="images/cases/cases3.jpg"
+                                data-lightbox="cases"
+                                data-title="Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                                Sequi, nulla!"
+                            >
+                                <img
+                                    src="images/cases/cases3.jpg"
+                                    alt="cases3"
+                                />
+                            </a>
                         </div>
                         <div class="cell">
-                            <img src="images/cases/cases4.jpg" alt="cases4" />
+                            <a
+                                href="images/cases/cases4.jpg"
+                                data-lightbox="cases"
+                                data-title="Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                                Sequi, nulla!"
+                            >
+                                <img
+                                    src="images/cases/cases4.jpg"
+                                    alt="cases4"
+                                />
+                            </a>
                         </div>
                     </div>
                     <div class="column">
                         <div class="cell">
-                            <img src="images/cases/cases5.jpg" alt="cases5" />
+                            <a
+                                href="images/cases/cases5.jpg"
+                                data-lightbox="cases"
+                                data-title="Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                                Sequi, nulla!"
+                            >
+                                <img
+                                    src="images/cases/cases5.jpg"
+                                    alt="cases5"
+                                />
+                            </a>
                         </div>
                         <div class="cell">
-                            <img src="images/cases/cases6.jpg" alt="cases6" />
+                            <a
+                                href="images/cases/cases6.jpg"
+                                data-lightbox="cases"
+                                data-title="Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                                Sequi, nulla!"
+                            >
+                                <img
+                                    src="images/cases/cases6.jpg"
+                                    alt="cases6"
+                                />
+                            </a>
                         </div>
                     </div>
                     <div class="column">
                         <div class="cell">
-                            <img src="images/cases/cases7.jpg" alt="cases7" />
+                            <a
+                                href="images/cases/cases7.jpg"
+                                data-lightbox="cases"
+                                data-title="Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                                Sequi, nulla!"
+                            >
+                                <img
+                                    src="images/cases/cases7.jpg"
+                                    alt="cases7"
+                                />
+                            </a>
                         </div>
                         <div class="cell">
-                            <img src="images/cases/cases8.jpg" alt="cases8" />
+                            <a
+                                href="images/cases/cases8.jpg"
+                                data-lightbox="cases"
+                                data-title="Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                                Sequi, nulla!"
+                            >
+                                <img
+                                    src="images/cases/cases8.jpg"
+                                    alt="cases8"
+                                />
+                            </a>
                         </div>
                     </div>
                 </div>
@@ -281,5 +367,13 @@
             </div>
             <p>Copyright &copy; 2022 - EdgeLedger</p>
         </footer>
+        <script
+            src="https://code.jquery.com/jquery-3.6.0.min.js"
+            integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4="
+            crossorigin="anonymous"
+        ></script>
+        <script src="scripts/lightbox.min.js"></script>
+        <script src="scripts/smoothScroll.js"></script>
+        <script src="scripts/navbar.js"></script>
     </body>
 </html>
