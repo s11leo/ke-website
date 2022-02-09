@@ -92,6 +92,12 @@ img {
     height: 40vh;
 }
 
+.hero.solutions {
+    background: url("../images/cases/cases_head.jpg") no-repeat center
+        center/cover;
+    height: 40vh;
+}
+
 .hero .content {
     display: flex;
     flex-direction: column;
@@ -141,7 +147,7 @@ img {
     margin-bottom: 15px;
 }
 
-.cases img:hover {
+.solutions img:hover {
     opacity: 0.7;
 }
 
@@ -149,7 +155,14 @@ img {
     border-radius: 50%;
 }
 
+/* Team */
+
+.team {
+    background: #fff;
+}
+
 /* Callback form */
+
 .callback-form {
     width: 100%;
     padding: 20px 0;
@@ -202,10 +215,17 @@ img {
     margin: 0 15px;
 }
 
+/* Solutions */
+
+.solutions {
+    background: #fff;
+}
+
 /* Post */
 
 .post {
     padding: 50px 30px;
+    background: #fff;
 }
 
 .post h2 {
@@ -228,7 +248,7 @@ img {
 
 /* Mobile */
 
-@media screen and (max-width: 778px) {
+@media screen and (max-width: 800px) {
     .navbar {
         flex-direction: column;
         height: 120px;
@@ -249,7 +269,19 @@ img {
         flex: 1 100%;
     }
 
-    .hero.blog {
-        height: 50vh;
+    .hero.blog,
+    .hero.cases {
+        height: 60vh;
+    }
+}
+
+@media screen and (min-width: 1921px) {
+    body {
+        background: rgb(218, 218, 218);
+    }
+
+    main {
+        width: 80vw;
+        margin: auto;
     }
 }
