@@ -144,7 +144,7 @@ img {
 }
 
 .icons i {
-    background-color: #28a745;
+    background-color: #ecb930;
     color: #fff;
     padding: 1rem;
     border-radius: 50%;
@@ -189,7 +189,7 @@ img {
 }
 
 .callback-form input:focus {
-    outline-color: #28a745;
+    outline-color: #ecb930;
 }
 
 .callback-form .btn {
@@ -212,7 +212,7 @@ img {
 }
 
 .footer a:hover {
-    color: #28a745;
+    color: #ecb930;
 }
 
 .footer .social > * {
