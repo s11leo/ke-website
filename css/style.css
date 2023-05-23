@@ -252,16 +252,16 @@ img {
 
 /* Mobile */
 
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 800px) {
     .navbar {
         flex-direction: column;
-        height: 120px;
-        padding: 20px;
+        height: 150px;
+        padding: 10px;
     }
 
     .navbar a {
-        padding: 10px 10px;
-        margin: 0 3px;
+        padding: 5px 10px;
+        margin: 0 2px;
     }
 
     .flex-items {
