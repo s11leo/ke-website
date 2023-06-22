@@ -101,7 +101,7 @@ img {
 }
 
 .video {
-  object-fit: cover;
+  /* object-fit: cover;*/
   position: absolute;
   z-index: 1;
   top: 0;
