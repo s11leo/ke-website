@@ -61,21 +61,25 @@ img {
 
 .navbar.top {
     background: transparent;
+    z-index: 3;
 }
 
 .navbar a {
     color: #fff;
     padding: 10px 20px;
     margin: 0 5px;
+    z-index: 3;
 }
 
 .navbar a:hover {
     border-bottom: #005558 2px solid;
+    z-index: 3;
 }
 
 .navbar ul {
     display: flex;
     justify-content: space-between;
+    z-index: 3;
 }
 
 .navbar .logo {
