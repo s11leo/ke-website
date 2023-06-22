@@ -83,6 +83,26 @@ img {
 }
 
 /* Header */
+video {
+  object-fit: cover;
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 100%;
+  color: #fff;
+}
+/* .video-wrapper {
+  border: 2px solid #000;
+  width: 400px;
+  height: 200px;
+  position: relative;
+  overflow: hidden;
+  text-align: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+} */
 
 .hero {
     background: url("../images/home/showcase.jpg") no-repeat center center/cover;
