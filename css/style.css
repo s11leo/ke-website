@@ -21,7 +21,6 @@ body {
 
 ul {
     list-style: none;
-    z-index: 4;
 }
 
 a {
@@ -107,15 +106,12 @@ img {
 
 .video {
   /* object-fit: cover;*/
-    max-height: 100vh;
-    overflow: hidden;
-    display: block;
-    position: absolute;
-    z-index: 1;
-    top: 0;
-    left: 0;
-    /* height: 100%; */
-    width: 100%;
+  position: absolute;
+  z-index: 1;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 100%;
 }
 /* .video-wrapper {
   border: 2px solid #000;
@@ -133,7 +129,7 @@ img {
     background: url("../images/home/showcase.jpg") no-repeat center center/cover;
     height: 100vh;
     position: relative;
-    /* color: #fff; */
+    color: #fff;
 }
 
 .hero.blog {
