@@ -149,6 +149,7 @@ img {
     align-items: center;
     text-align: center;
     height: 100%;
+    width: 100%;
     padding: 0 20px;
     position: absolute;
     z-index: 3;
