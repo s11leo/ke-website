@@ -54,6 +54,11 @@
     border: 1px solid #fff;
 }
 
+.btn-outline-dark {
+    background: transparent;
+    border: 1px solid #333;
+}
+
 /* Flex items */
 
 .flex-items {
