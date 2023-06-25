@@ -54,6 +54,12 @@
     color: #fff;
 }
 
+.btn-l-t,
+.bg-l-t {
+    background: #135658;
+    color: #333;
+}
+
 .btn-light,
 .bg-light {
     background: #ecb930;
