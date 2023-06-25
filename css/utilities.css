@@ -21,16 +21,6 @@
     z-index: 3;
 }
 
-.btn-1 {
-    cursor: pointer;
-    display: inline-block;
-    padding: 10px 30px;
-    color: #333;
-    background-color: #135658;
-    border: none;
-    border-radius: 5px;
-    z-index: 3;
-
 .btn:hover {
     opacity: 0.9;
 }
