@@ -1,7 +1,7 @@
 /* Text colors */
 
 .text-primary {
-    color: #ecb930;
+    color: #F6BE00;
 }
 
 .text-secondary {
@@ -15,7 +15,7 @@
     display: inline-block;
     padding: 10px 30px;
     color: #fff;
-    background-color: #ecb930;
+    background-color: #F6BE00;
     border: none;
     border-radius: 5px;
     z-index: 3;
@@ -26,7 +26,7 @@
     display: inline-block;
     padding: 10px 30px;
     color: #333;
-    background-color: #ecb930;
+    background-color: #F6BE00;
     border: none;
     border-radius: 5px;
     z-index: 3;
@@ -39,18 +39,18 @@
 .btn-primary,
 .bg-primary {
     color: #fff;
-    background-color: #ecb930;
+    background-color: #F6BE00;
 }
 
 .btn-secondary,
 .bg-secondary {
-    background: #135658;
+    background: #0D5257;
     color: #fff;
 }
 
 .btn-dark,
 .bg-dark {
-    background: #135658;
+    background: #0D5257;
     color: #fff;
 }
 
@@ -62,7 +62,7 @@
 
 .btn-light,
 .bg-light {
-    background: #ecb930;
+    background: #F6BE00;
     color: #333;
 }
 
