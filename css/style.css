@@ -1,4 +1,9 @@
-@import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400&family=Poppins:ital,wght@1,900&display=swap");
+/* @import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400&family=Poppins:ital,wght@1,900&display=swap"); */
+
+@font-face {
+  font-family: "PT Sans";
+  src: url("../css/PT_Sans-Web-Bold.ttf");
+}
 
 /* Basic styles */
 
@@ -13,7 +18,7 @@ html {
 }
 
 body {
-    font-family: "Open Sans", sans-serif;
+    font-family: "PT Sans", sans-serif;
     background: #fff;
     color: #333;
     line-height: 1.6;
