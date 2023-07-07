@@ -130,8 +130,8 @@ img {
 
 .hero {
     background: url("../images/home/Logobook_1.jpg") no-repeat center center/cover;
-    height: 100vh;
-    position: relative;
+    max-height: 100vh;
+    position: absolute;
     color: #fff;
 }
 
