@@ -90,10 +90,10 @@ img {
 }
 
 /* Header */
-.mask {
+/* .mask {
     max-height: 100vh;
     overflow: hidden;
-}
+} */
 
 /*.mask:after {
     content: "";
