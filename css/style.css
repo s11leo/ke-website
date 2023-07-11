@@ -240,7 +240,8 @@ img {
 /* Solutions */
 
 .solutions {
-    background: #fff;
+    background: url("../images/pattern1_white.png"") #fff;
+    opacity: 0.25;
 }
 
 /* Post */
