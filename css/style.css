@@ -146,6 +146,7 @@ img {
     opacity: 0.5; 
    }
 .transp25 {
+    backgroung-image: url("../images/pattern1_white.png") no-repeat center center/cover;
     filter: alpha(Opacity=25);
     opacity: 0.25; 
    }
