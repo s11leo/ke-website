@@ -117,7 +117,7 @@
 }
 
 .flex-bg {
-    backgroung: url("../images/pattern1_white.png") no-repeat center center/cover;
+    backgroung-image: url("../images/pattern1_white.png") no-repeat center center/cover;
     height: 40vh;
     opacity: 0.25;
     }
