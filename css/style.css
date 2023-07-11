@@ -137,6 +137,19 @@ img {
     background: rgba(0, 0, 0, 0.6);
 }
 
+.transp75 {
+    filter: alpha(Opacity=75); /* Полупрозрачность для IE */
+    opacity: 0.75; /* Полупрозрачность для других браузеров */ 
+   }
+.trans50 {
+    filter: alpha(Opacity=50);
+    opacity: 0.5; 
+   }
+.transp25 {
+    filter: alpha(Opacity=25);
+    opacity: 0.25; 
+   }
+
 /* Icons */
 
 .icons {
