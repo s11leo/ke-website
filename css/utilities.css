@@ -159,3 +159,11 @@
     height: 100%;
     object-fit: cover;
 }
+
+.column-11 {
+    backgroung-image: url("../images/pattern1_white.png") no-repeat center center/cover;
+    height: 100%;
+    object-fit: cover;
+    opacity: 0.25;
+    z-index: 2;
+}
