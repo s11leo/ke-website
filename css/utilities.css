@@ -30,6 +30,14 @@
     background-color: #F6BE00;
 }
 
+.bg-img {
+    backgroung-image: url("../images/pattern1_white.png") no-repeat center center/cover;
+    height: 40vh;
+    opacity: 0.25;
+    color: #fff;
+    background-color: #F6BE00;
+}
+
 .btn-secondary,
 .bg-secondary {
     background: #0D5257;
