@@ -30,12 +30,6 @@
     background-color: #F6BE00;
 }
 
-.bg-img {
-    backgroung-image: url("../images/pattern1_white.png") no-repeat center center/cover;
-    height: 40vh;
-    z-index: 2
-    }
-
 .btn-secondary,
 .bg-secondary {
     background: #0D5257;
@@ -121,12 +115,6 @@
 .flex-columns p {
     margin: 20px 0;
 }
-
-.flex-bg {
-    backgroung-image: url("../images/pattern1_white.png") no-repeat center center/cover;
-    height: 40vh;
-    opacity: 0.25;
-    }
 
 /* Section header */
 
