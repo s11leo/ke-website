@@ -33,8 +33,7 @@
 .bg-img {
     backgroung-image: url("../images/pattern1_white.png") no-repeat center center/cover;
     height: 40vh;
-    opacity: 0.25;
-}
+    }
 
 .btn-secondary,
 .bg-secondary {
